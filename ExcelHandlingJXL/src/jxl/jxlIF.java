@@ -40,7 +40,8 @@ public class jxlIF {
 				String s1 = c1.getContents();
 				String s2 = c2.getContents();
 			if(s1==s2)
-			{
+			{ 
+				change
 				
 				Label l = new Label(j,i,"Pass");
 				ws.addCell(l);
