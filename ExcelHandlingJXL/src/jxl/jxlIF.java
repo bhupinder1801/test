@@ -41,7 +41,7 @@ public class jxlIF {
 				String s2 = c2.getContents();
 			if(s1==s2)
 			{ 
-				change
+				change++;
 				
 				Label l = new Label(j,i,"Pass");
 				ws.addCell(l);
